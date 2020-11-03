@@ -35,6 +35,11 @@
 			}
 		}
 
+		pre {
+			border-radius: 4px;
+			line-height: 1.8;
+		}
+
 		pre code {
 			background: none;
 		}
@@ -42,14 +47,22 @@
 			table-layout: auto;
 			background: none;
 			border: none;
+			margin: 8px 0;
 		}
 		pre td, th {
 			border-top: none;
 		}
 		pre td:first-child,
 		pre th:first-child {
+			text-align: center;
 			border-left: none;
 		}
+
+		pre td:nth-child(2),
+		pre td:nth-child(2) {
+			padding-left: .5em;
+		}
+
 		pre table tbody > tr:nth-child(odd) > td,
 		pre table tbody > tr:nth-child(odd) > th {
 			background: transparent
