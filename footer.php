@@ -11,8 +11,32 @@
 </footer>
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/fonts.css'); ?>">
 <?php if ($this->is('post') || $this->is('page') && $this->options->useHighline == 'able'): ?>
-<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/atom-one-dark.min.css">
+	<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			document.querySelectorAll('pre').forEach((block) => {
+				hljs.highlightBlock(block);
+				hljs.lineNumbersBlock(block, { singleLine: true });
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
+	<style>
+		code,
+		pre {
+			font-family: "Fira Code", monospace;
+		}
+		
+		@supports (font-variation-settings: normal) {
+			code {
+				font-family: "Fira Code VF", monospace;
+			}
+		}
+	</style>
+<!-- <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script> -->
 <?php endif; ?>
 <style type="text/css">
 a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and (max-width:580px){.back_to_top{display:none!important}}
