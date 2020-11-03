@@ -35,12 +35,20 @@
 			}
 		}
 
+		pre code {
+			background: none;
+		}
 		pre table {
 			table-layout: auto;
 			background: none;
+			border: none;
 		}
 		pre td, th {
 			border-top: none;
+		}
+		pre td:first-child,
+		pre th:first-child {
+			border-left: none;
 		}
 		pre table tbody > tr:nth-child(odd) > td,
 		pre table tbody > tr:nth-child(odd) > th {
