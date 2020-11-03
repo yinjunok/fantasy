@@ -34,6 +34,14 @@
 				font-family: "Fira Code VF", monospace;
 			}
 		}
+
+		pre table {
+			table-layout: auto;
+		}
+		pre table tbody > tr:nth-child(odd) > td,
+		pre table tbody > tr:nth-child(odd) > th {
+			background: transparent
+		}
 	</style>
 <!-- <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script> -->
