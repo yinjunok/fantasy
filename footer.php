@@ -37,6 +37,10 @@
 
 		pre table {
 			table-layout: auto;
+			background: none;
+		}
+		pre td, th {
+			border-top: none;
 		}
 		pre table tbody > tr:nth-child(odd) > td,
 		pre table tbody > tr:nth-child(odd) > th {
