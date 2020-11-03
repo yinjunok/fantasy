@@ -425,7 +425,7 @@ article .article-list h2:before,
 main section.content .article-list h2:before {
   content: "";
 }
-article h2:before,
+/* article h2:before,
 main section.content h2:before {
   content: "# ";
   color: #555;
@@ -439,7 +439,7 @@ article h4:before,
 main section.content h4:before {
   content: "### ";
   color: #555;
-}
+} */
 article ul span,
 main section.content ul span {
   font-size: 0.8em;
