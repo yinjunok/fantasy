@@ -127,7 +127,7 @@ body {
   width: 100%;
   margin: 0 auto;
   color: #333;
-  background: #f7f7f7;
+  background: #202b38;
   font-family: open sans, pingfang sc, hiragino sans gb, PingHei, sans-serif,
     Helvetica Neue, work sans, microsoft yahei, SimSun;
   -webkit-font-smoothing: antialiased;
@@ -141,7 +141,7 @@ body {
   background: #fff;
   margin: 0 auto;
   margin-top: 60px;
-  box-shadow: 0 10px 20px 0 hsla(0, 0%, 93%, 0.86);
+  /* box-shadow: 0 10px 20px 0 hsla(0, 0%, 93%, 0.86); */
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
