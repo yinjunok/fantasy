@@ -869,8 +869,8 @@ footer .footer_slogan {
   padding-bottom: 10px;
 }
 #back_to_top {
-  background: #fff;
-  box-shadow: 0 10px 20px 0 hsla(0, 0%, 93%, 0.86);
+  background: #161f27;
+  /* box-shadow: 0 10px 20px 0 hsla(0, 0%, 93%, 0.86); */
 }
 #back_to_top span {
   color: #ccc;
