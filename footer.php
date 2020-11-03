@@ -60,7 +60,8 @@
 
 		pre td:nth-child(2),
 		pre td:nth-child(2) {
-			padding-left: .5em;
+			padding-left: 1em;
+			border-left: 1px solid #999;
 		}
 
 		pre table tbody > tr:nth-child(odd) > td,
