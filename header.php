@@ -17,7 +17,7 @@
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
-<link data-n-head="true" rel="icon" type="image/x-icon" href="/favicon.ico">
+<link data-n-head="true" rel="icon" type="image/x-icon" href="https://www.bald.icu/usr/uploads/2020/11/2264772129.ico">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
 <script type="text/javascript" src="<?php $this->options->themeUrl('css/jquery.js'); ?>"></script>
 <?php if ($this->options->fontshow == 'able'): ?>
