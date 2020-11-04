@@ -42,6 +42,10 @@
 			line-height: 1.8;
 		}
 
+		pre .hljs-regexp {
+			background: transparent;
+		}
+
 		pre code {
 			background: none;
 		}
