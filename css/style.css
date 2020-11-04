@@ -1128,6 +1128,7 @@ footer .footer_slogan {
 .codehilite .il {
   color: #b452cd;
 }
+/* 
 .hljs {
   display: block;
   overflow-x: auto;
@@ -1193,7 +1194,7 @@ footer .footer_slogan {
 .hljs-selector-id,
 .hljs-tag {
   color: #070;
-}
+} */
 ::-webkit-scrollbar {
   width: 9px;
   height: 9px;
