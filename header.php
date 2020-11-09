@@ -19,7 +19,7 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 <link data-n-head="true" rel="icon" type="image/x-icon" href="<?php $this->options->themeUrl('css/favicon.ico'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
-<script type="text/javascript" src="<?php $this->options->themeUrl('css/jquery.js'); ?>"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
 <?php if ($this->options->fontshow == 'able'): ?>
 <style type="text/css">* {text-shadow : 0.01em 0.01em 0.01em #999999}</style>
 <?php endif; ?>
