@@ -45,6 +45,8 @@
 		pre code {
 			border: none;
 			background: none;
+			font-size: 1em;
+			background-color: transparent;
 		}
 
 		pre table {
