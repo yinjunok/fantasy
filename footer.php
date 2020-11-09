@@ -46,6 +46,7 @@
 			border: none;
 			background: none;
 			font-size: 1em;
+			color: #abb2bf;
 			background-color: transparent;
 		}
 
