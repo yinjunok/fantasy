@@ -43,6 +43,7 @@
 		}
 
 		pre code {
+			border: none;
 			background: none;
 		}
 
@@ -62,6 +63,7 @@
 		pre th:first-child {
 			text-align: center;
 			border-left: none;
+			width: 38px;
 		}
 
 		pre td:nth-child(2),
