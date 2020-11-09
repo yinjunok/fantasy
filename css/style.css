@@ -331,6 +331,11 @@ header h1 {
   margin-right: 0;
   text-align: right;
 }
+
+header h1 > a {
+  color: #333;
+}
+
 header h2 {
   font-size: 0.8em;
   color: #bbb;
