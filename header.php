@@ -17,7 +17,7 @@
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
-<link data-n-head="true" rel="icon" type="image/x-icon" href="https://www.bald.icu/usr/uploads/2020/11/2264772129.ico">
+<link data-n-head="true" rel="icon" type="image/x-icon" href="<?php $this->options->themeUrl('css/favicon.ico'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
 <script type="text/javascript" src="<?php $this->options->themeUrl('css/jquery.js'); ?>"></script>
 <?php if ($this->options->fontshow == 'able'): ?>
@@ -26,7 +26,7 @@
 </head>
 <body>
 <div class="wrapper">
-	<header><a href="<?php $this->options->siteUrl();?>" class="logo"><?php if($this->options->logoUrl): ?><img src="<?php $this->options->logoUrl();?>" alt="<?php $this->options->title() ?>" /><?php else : ?><img src="<?php $this->options->themeUrl('css/pic.png'); ?>"/><?php endif; ?></a>
+	<header><a href="<?php $this->options->siteUrl();?>" class="logo"><?php if($this->options->logoUrl): ?><img src="<?php $this->options->logoUrl();?>" alt="<?php $this->options->title() ?>" /><?php else : ?><img src="<?php $this->options->themeUrl('css/favicon.png'); ?>"/><?php endif; ?></a>
 	<div class="description">
 		<h1><?php $this->options->title(); ?></h1>
 		<h2><?php $this->options->description() ?></h2>

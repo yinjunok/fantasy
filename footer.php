@@ -42,10 +42,6 @@
 			line-height: 1.8;
 		}
 
-		pre .hljs-regexp {
-			background: transparent;
-		}
-
 		pre code {
 			background: none;
 		}
@@ -79,8 +75,7 @@
 			background: transparent
 		}
 	</style>
-	<!-- <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script> -->
+
 <?php endif; ?>
 <style type="text/css">
 	a.back_to_top {
