@@ -813,10 +813,7 @@ aside span {
   line-height: 1.5em;
   text-align: left;
 }
-.archived-posts,
-.excerpt p {
-  font-size: 0.875em;
-}
+
 footer {
   text-align: center;
   padding: 60px 0;

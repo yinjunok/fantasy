@@ -134,3 +134,11 @@ var OwO_winds = new OwO({
     maxHeight: '250px'
 });</script>
 <?php endif; ?>
+
+<style>
+	.v[data-class=v] .veditor {
+		background-color: #fff;
+		color: #333;
+		border-radius: 2px;
+	}
+</style>
