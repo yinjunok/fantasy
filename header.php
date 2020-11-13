@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="msvalidate.01" content="54BF34110AFAC3CA488289B404D80403" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
@@ -23,6 +24,15 @@
 <?php if ($this->options->fontshow == 'able'): ?>
 <style type="text/css">* {text-shadow : 0.01em 0.01em 0.01em #999999}</style>
 <?php endif; ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122920259-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122920259-2');
+</script>
 </head>
 <body>
 <div class="wrapper">
