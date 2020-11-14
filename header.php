@@ -20,19 +20,10 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 <link data-n-head="true" rel="icon" type="image/x-icon" href="<?php $this->options->themeUrl('css/favicon.ico'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
-<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script> -->
 <?php if ($this->options->fontshow == 'able'): ?>
 <style type="text/css">* {text-shadow : 0.01em 0.01em 0.01em #999999}</style>
 <?php endif; ?>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122920259-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-122920259-2');
-</script>
 </head>
 <body>
 <div class="wrapper">

@@ -120,32 +120,27 @@
 		}
 	}
 </style>
-<a id="back_to_top" href="#top" class="back_to_top"><span>△</span></a>
-<script>
-	$(document).ready((function(_this) {
-		return function() {
-			var bt;
-			bt = $('#back_to_top');
-			if ($(document).width() > 480) {
-				$(window).scroll(function() {
-					var st;
-					st = $(window).scrollTop();
-					if (st > 30) {
-						return bt.css('display', 'block')
-					} else {
-						return bt.css('display', 'none')
-					}
-				});
-				return bt.click(function() {
-					$('body,html').animate({
-						scrollTop: 0
-					}, 800);
-					return false
-				})
+<!-- <a id="back_to_top" href="#top" class="back_to_top"><span>△</span></a> -->
+<!-- <script>
+	window.addEventListener('DOMContentLoaded', function() {
+		var toTop = document.getElementById('back_to_top')
+		window.addEventListener('resize', function() {
+			if (window.innerWidth > 580) {
+				toTop.style.display = 'none'
+			} else {
+				toTop.style.display = 'block'
 			}
-		}
-	})(this));
-</script>
+		})
+		window.addEventListener('scroll', function() {
+			const scrollTop = document.documentElement.scrollTop + document.body.scrollTop
+			if (scrollTop > 30) {
+				toTop.style.display = 'block'
+			} else {
+				toTop.style.display = 'none'
+			}
+		})
+	})
+</script> -->
 <?php $this->footer(); ?>
 </body>
 
