@@ -1,6 +1,5 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/vcomments.css'); ?>">
-<link rel="stylesheet" href="<?php $this->options->themeUrl('lib/OwO/OwO.min.css'); ?>">
 <?php
 function threadedComments($comments, $options)
 {
@@ -74,13 +73,7 @@ function threadedComments($comments, $options)
 						<div class="vedit">
 							<textarea name="text" id="veditor" class="OwO-textarea veditor vinput" placeholder="说点什么?"><?php $this->remember('text'); ?></textarea>
 						</div>
-						<style>
-							.veditor {
-								background: #fff;
-								color: #eee;
-								border-radius: 2px;
-							}
-						</style>
+
 						<div class="vrow">
 							<div class="vcol vcol-30">
 								<a alt="Markdown is supported" href="https://guides.github.com/features/mastering-markdown/" class="vicon" target="_blank"><svg class="markdown" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
