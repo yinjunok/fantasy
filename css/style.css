@@ -930,3 +930,11 @@ footer .footer_slogan {
 ::-webkit-scrollbar-thumb {
   background: #c8c8c8;
 }
+
+.archived-posts ul li a {
+  color: #333;
+}
+
+.archived-posts li time {
+  color: #999;
+}
