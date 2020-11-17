@@ -27,7 +27,7 @@
 </head>
 <body>
 <div class="wrapper">
-	<header><a href="<?php $this->options->siteUrl();?>" class="logo"><?php if($this->options->logoUrl): ?><img src="<?php $this->options->logoUrl();?>" alt="<?php $this->options->title() ?>" /><?php else : ?><img src="<?php $this->options->themeUrl('css/favicon.png'); ?>"/><?php endif; ?></a>
+	<header><a href="<?php $this->options->siteUrl();?>" class="logo"><?php if($this->options->logoUrl): ?><img src="<?php $this->options->logoUrl();?>" alt="<?php $this->options->title() ?>" /><?php else : ?><img src="<?php $this->options->themeUrl('css/favicon_mini.png'); ?>"/><?php endif; ?></a>
 	<div class="description">
 		<h1><a  href="<?php $this->options->siteUrl();?>"><?php $this->options->title(); ?></a></h1>
 		<h2><?php $this->options->description() ?></h2>
